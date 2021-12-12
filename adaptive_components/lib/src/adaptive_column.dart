@@ -83,7 +83,7 @@ class AdaptiveColumn extends StatelessWidget {
             maxWidth: _entry.adaptiveWindowType.widthRangeValues.end,
           ),
           child: Wrap(
-            runSpacing: 8.0,
+            runSpacing: _gutter,
             children: () {
               int currentColumns = 0;
               int totalGutters = 0;
